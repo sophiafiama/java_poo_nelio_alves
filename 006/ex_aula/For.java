@@ -12,5 +12,9 @@ public class For {
             total += x;
         }
         System.out.println("Total igual: " + total);
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Testando o for " + i);
+        }
     }
 }
